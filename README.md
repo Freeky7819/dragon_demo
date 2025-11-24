@@ -49,12 +49,12 @@ We evaluated Dragon against standard baselines (SBERT for text, CLIP for vision)
 
 1. Text Retrieval Efficiency
 Comparison of retrieval recall (R@10) on short facts (SciFact) and long documents (LoCoV1/Qasper).
-
+![Text Benchmarks](assets/benchmark_text.png)
 Insight: Dragon maintains 97% of the baseline performance on long-context tasks (LoCo) while using compressed vector representations. The drop in short-text (SciFact) is an expected trade-off for compression density.
 
 2. Vision Pipeline (Logic vs. Reality)
 Comparison of Image-to-Text retrieval (R@1) on Flickr30k.
-
+![Vision Benchmarks](assets/benchmark_vision.png)
 Logic Test: Dragon creates embeddings from Ground Truth captions (Ideal scenario).
 
 Real World: Dragon generates descriptions via LLaVA + OCR (Actual Agent performance).
