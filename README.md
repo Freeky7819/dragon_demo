@@ -9,7 +9,7 @@
 This repository contains the **interactive GUI demo** and the **benchmark suite** validating the architecture against industry baselines (SBERT, CLIP).
 
 ![GUI Screenshot](assets/gui_screenshot.png)
-*The Dragon Interface: Analyzing "The Republic" while processing visual inputs via LLaVA.*
+*The Dragon Interface
 
 ---
 
