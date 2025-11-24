@@ -65,9 +65,9 @@ Insight: When fed accurate descriptions (Logic Test), Dragon performs on par wit
 
 To verify these results, run the unified benchmark suite using the following PowerShell commands. This script automatically handles dataset downloads (HuggingFace) and metric calculation.
 
-PowerShell
 
-Install dependencies
+
+### Install dependencies
 ```
 pip install datasets open_clip_torch psutil pandas
 ```
