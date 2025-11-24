@@ -62,6 +62,7 @@ Real World: Dragon generates descriptions via LLaVA + OCR (Actual Agent performa
 Insight: When fed accurate descriptions (Logic Test), Dragon performs on par with CLIP (0.66 vs 0.68), validating the search architecture. The drop in "Real World" mode reflects the current limitations of VLM description generation (LLaVA), not the retrieval engine itself.
 
 🧪 Reproducing Benchmarks
+
 To verify these results, run the unified benchmark suite using the following PowerShell commands. This script automatically handles dataset downloads (HuggingFace) and metric calculation.
 
 PowerShell
