@@ -71,19 +71,21 @@ PowerShell
 ```
 pip install datasets open_clip_torch psutil pandas
 ```
+
 # 1. Text Retrieval (Short & Long Context)
 ```
 python bench_dragon_suite.py beir --dataset BeIR/scifact --max-docs 1000 --max-queries 200 --json-file results_beir.json
 python bench_dragon_suite.py loco --loco-task qasper_abstract --max-docs 500 --max-queries 100 --json-file results_loco.json
 ```
+
 # 2. Vision Retrieval (Logic & E2E Pipeline)
 ```
 python bench_dragon_suite.py vision --mode caption --dataset nlphuji/flickr30k --max-images 500 --max-queries 500 --json-file results_vision_caption.json
 python bench_dragon_suite.py vision --mode e2e --dataset nlphuji/flickr30k --max-images 50 --max-queries 50 --json-file results_vision_e2e.json
 ```
+
 📂 Repository Structure
 ```Plaintext
-
 dragon_demo/
 ├── app.py                  # Main Streamlit GUI application
 ├── dragon_core.py          # Neural Network definitions (PyTorch)
@@ -93,5 +95,6 @@ dragon_demo/
 ├── results/                # Raw JSON benchmark logs
 └── assets/                 # Images and graphs
 ```
+
 📜 License
 MIT License.
