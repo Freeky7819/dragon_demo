@@ -1,0 +1,15 @@
+streamlit
+torch
+torchvision
+sentence-transformers
+ollama
+easyocr
+pillow
+numpy
+datasets
+open_clip_torch
+psutil
+matplotlib
+pandas
+anthropic
+openai

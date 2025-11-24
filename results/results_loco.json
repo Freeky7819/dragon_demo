@@ -1,0 +1,39 @@
+{
+  "timestamp": "2025-11-24T06:06:45.069126",
+  "task": "loco_qasper_abstract",
+  "config": {
+    "cmd": "loco",
+    "loco_task": "qasper_abstract",
+    "max_docs": 500,
+    "max_queries": 100,
+    "seed": 41,
+    "tau": 0.1,
+    "sensitivity": 1.0,
+    "min_vectors": 2,
+    "hybrid_anchor": false,
+    "disk_fp16": false,
+    "json_file": "results_loco.json"
+  },
+  "metrics": {
+    "baseline": {
+      "R@1": 0.71,
+      "R@5": 0.89,
+      "R@10": 0.95,
+      "nDCG@10": 0.8230024165652097,
+      "MRR@10": 0.7829920634920636
+    },
+    "dragon": {
+      "R@1": 0.6,
+      "R@5": 0.87,
+      "R@10": 0.92,
+      "nDCG@10": 0.757948249159373,
+      "MRR@10": 0.7058571428571428
+    },
+    "details": {
+      "task": "qasper_abstract",
+      "docs": 416,
+      "queries": 100,
+      "avg_vectors_per_doc": 45.26442307692308
+    }
+  }
+}

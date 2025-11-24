@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-11-24T06:10:45.988000",
+  "task": "vision",
+  "config": {
+    "cmd": "vision",
+    "dataset": "nlphuji/flickr30k",
+    "split": "test",
+    "max_images": 500,
+    "max_queries": 500,
+    "seed": 41,
+    "mode": "caption",
+    "top_k": 10,
+    "disk_fp16": false,
+    "no_ocr": false,
+    "json_file": "results_vision_caption.json"
+  },
+  "metrics": {
+    "baseline_clip": {
+      "R@1": 0.68,
+      "R@5": 0.902,
+      "R@10": 0.948,
+      "MRR@10": 0.7770388888888884
+    },
+    "dragon": {
+      "R@1": 0.662,
+      "R@5": 0.794,
+      "R@10": 0.826,
+      "MRR@10": 0.7225960317460319
+    },
+    "details": {
+      "dataset": "nlphuji/flickr30k",
+      "split": "test",
+      "mode": "caption",
+      "ocr_active": true
+    }
+  }
+}
